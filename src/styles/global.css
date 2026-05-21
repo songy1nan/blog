@@ -272,6 +272,42 @@ h1 {
   line-height: 1.25;
 }
 
+.prose table {
+  width: 100%;
+  margin: 22px 0 28px;
+  border-collapse: collapse;
+  overflow: hidden;
+  border: 1px solid rgba(222, 211, 189, 0.95);
+  border-radius: 8px;
+  background: rgba(255, 250, 240, 0.78);
+  box-shadow: 0 10px 28px rgba(62, 76, 54, 0.06);
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.prose th,
+.prose td {
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(222, 211, 189, 0.85);
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose th {
+  background: rgba(111, 141, 95, 0.11);
+  color: var(--leaf);
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.prose tr:last-child td {
+  border-bottom: 0;
+}
+
+.prose tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.24);
+}
+
 .prose code {
   padding: 2px 6px;
   border-radius: 6px;
@@ -312,5 +348,16 @@ h1 {
 
   .post-list {
     grid-template-columns: 1fr;
+  }
+
+  .prose table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .prose th,
+  .prose td {
+    padding: 10px 12px;
   }
 }

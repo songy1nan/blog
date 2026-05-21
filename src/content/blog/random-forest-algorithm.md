@@ -81,31 +81,26 @@ draft: false
       <rect x="48" y="118" width="150" height="88" rx="8" fill="#ffffff" stroke="#fb923c" stroke-width="3"/>
       <text x="123" y="152" text-anchor="middle" font-weight="700">原始数据集</text>
       <text x="123" y="180" text-anchor="middle" fill="#475569">样本 + 特征</text>
-
       <path d="M210 162 H300" stroke="#ea580c" stroke-width="4" stroke-linecap="round"/>
       <path d="M284 145 L310 162 L284 179" fill="none" stroke="#ea580c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-
       <rect x="318" y="84" width="170" height="70" rx="8" fill="#ffffff" stroke="#fb923c" stroke-width="3"/>
       <text x="403" y="126" text-anchor="middle">Bootstrap 抽样 1</text>
       <rect x="318" y="176" width="170" height="70" rx="8" fill="#ffffff" stroke="#fb923c" stroke-width="3"/>
       <text x="403" y="218" text-anchor="middle">Bootstrap 抽样 2</text>
       <rect x="318" y="268" width="170" height="70" rx="8" fill="#ffffff" stroke="#fb923c" stroke-width="3"/>
       <text x="403" y="310" text-anchor="middle">Bootstrap 抽样 n</text>
-
       <path d="M502 119 H592" stroke="#ea580c" stroke-width="4" stroke-linecap="round"/>
       <path d="M576 102 L602 119 L576 136" fill="none" stroke="#ea580c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M502 211 H592" stroke="#ea580c" stroke-width="4" stroke-linecap="round"/>
       <path d="M576 194 L602 211 L576 228" fill="none" stroke="#ea580c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M502 303 H592" stroke="#ea580c" stroke-width="4" stroke-linecap="round"/>
       <path d="M576 286 L602 303 L576 320" fill="none" stroke="#ea580c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-
       <rect x="610" y="84" width="138" height="70" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
       <text x="679" y="126" text-anchor="middle">决策树 1</text>
       <rect x="610" y="176" width="138" height="70" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
       <text x="679" y="218" text-anchor="middle">决策树 2</text>
       <rect x="610" y="268" width="138" height="70" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
       <text x="679" y="310" text-anchor="middle">决策树 n</text>
-
       <path d="M760 119 C805 135 820 158 830 198" stroke="#334155" stroke-width="4" fill="none" stroke-linecap="round"/>
       <path d="M760 211 H827" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
       <path d="M760 303 C805 287 820 264 830 224" stroke="#334155" stroke-width="4" fill="none" stroke-linecap="round"/>
@@ -164,19 +159,15 @@ draft: false
       <text x="165" y="104" text-anchor="end">是否加入购物车</text>
       <rect x="190" y="82" width="520" height="32" rx="4" fill="#2563eb"/>
       <text x="725" y="105" fill="#475569">0.34</text>
-
       <text x="165" y="154" text-anchor="end">历史购买次数</text>
       <rect x="190" y="132" width="405" height="32" rx="4" fill="#22c55e"/>
       <text x="610" y="155" fill="#475569">0.26</text>
-
       <text x="165" y="204" text-anchor="end">浏览次数</text>
       <rect x="190" y="182" width="295" height="32" rx="4" fill="#f97316"/>
       <text x="500" y="205" fill="#475569">0.19</text>
-
       <text x="165" y="254" text-anchor="end">最近访问间隔</text>
       <rect x="190" y="232" width="220" height="32" rx="4" fill="#14b8a6"/>
       <text x="425" y="255" fill="#475569">0.14</text>
-
       <text x="165" y="304" text-anchor="end">年龄</text>
       <rect x="190" y="282" width="110" height="32" rx="4" fill="#64748b"/>
       <text x="315" y="305" fill="#475569">0.07</text>
